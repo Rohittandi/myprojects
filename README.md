@@ -1,2 +1,2 @@
 # myprojects
-I will upload my every projects publicly. Anybody can see. 
+I am uploading my every projects catagorizely. Anybody can see. 
