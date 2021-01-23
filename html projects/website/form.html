@@ -1,0 +1,50 @@
+<!--open Home file which is in current directory-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        Enter your first name
+        <input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required /><br>
+        Enter your last name
+        <input type="text" /><br>
+        Enter your password
+        <input type="password" /><br>
+        ReEnter your password
+        <input type="password" /><br>
+        Enter your email
+        <input type="email" /><br>
+        Enter your mobile
+        <input type="number" /><br>
+        Enter your address
+        <textarea rows="8" cols="20"></textarea><br>
+        Select your gender
+        male<input type="radio" name="g" value="m" />
+        female<input type="radio" name="g" value="f" /><br>
+        Select your hobbies
+        hobby1<input type="checkbox" name="x[]" value="h" />
+        hobby2<input type="checkbox" name="x[]" value="h2" />
+        hobby3<input type="checkbox" name="x[]" value="h3" /><br>
+        Select your DOB
+        <input type="date" /><br>
+        Select your Country
+        <select name="country">
+            <option value="" selected="selected" disabled="disabled">Select your country</option>
+            <option value="1">India</option>
+            <option value="2">Pakistan</option>
+         </select><br>
+            Upload your pic
+            <input type="file" />
+            <input type="submit" value="Save My Data" />
+            <input type="reset" value="Reset Data" />
+
+    </form>
+</body>
+
+</html>
