@@ -1,0 +1,56 @@
+<!--A simple Animation to move right top from left bottom.
+##open with any browser,it will be opened##
+*****This is by Rohita Tandi*****-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>animation</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+
+
+            position: fixed;
+            animation-name: example;
+            animation-duration: 4s;
+            left: 0px;
+            bottom: 0px;
+        }
+
+        @keyframes example {
+            0% {
+                background-color: green;
+                left: 0px;
+                bottom: 0px;
+                top: 500px;
+                right: 500px;
+            }
+
+            100% {
+                background-color: yellow;
+                left: 500px;
+                bottom: 500px;
+                top: 0px;
+                right: 0px;
+                border-radius: 100%;
+            }
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div></div>
+
+</body>
+
+</html>

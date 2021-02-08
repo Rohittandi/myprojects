@@ -1,0 +1,65 @@
+<!--A simple web page.
+##open with any browser,it will be opened##
+*****This is by Rohita Tandi*****-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>web page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      }
+
+  /* Create two equal columns that floats next to each other */
+   .column {
+     float: left;
+     width: 50%;
+     padding: 10px;
+     height: 600px; /* Should be removed. Only for demonstration */
+    }
+
+     /* Clear floats after the columns */
+   .button {
+     background-color:blue;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+
+
+<div>
+  <div class="column" style="background-image: url(building.jpg);">
+    <h1 style="color: white; text-align: center; padding-top: 200px;">Video platform we hope you'll love</h1>
+    <p style="color: white;">Enjoy video without ads. Engage with your favorite charecters. Support awesome work</p>
+    <button type="button" >Go Home</button>
+  </div>
+  <div class="column" style="background-color: gray;">
+    <h2>Register</h2>
+    <p>Welcome! please enter your new account detail</p>
+    <form method="get" action="action.php">
+      EMAIL ADDRESS<br>
+      <input type="email" name="email" /><br>
+      PASSWORD<br>
+      <input type="password" name="password" /><br>
+      RETYPE PASSWORD<br>
+      <input type="password"/><br>
+      <button class="button">register</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
